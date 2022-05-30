@@ -1,0 +1,367 @@
+
+ul{
+    margin: 0;
+}
+.img
+{
+max-width: 100%;
+max-height: 100%;
+}
+
+.arriba
+{
+    display: flex;
+    font-size: larger;
+    font-family: 'Koulen', cursive;
+    background-color:black;
+ flex-direction: row-reverse;
+  text-decoration: none;
+padding-top: 2%;
+border-bottom: 8px solid rgb(140, 45, 236);
+/* padding-bottom: 1%; */
+
+}
+.arriba li
+{
+list-style: none;
+display: flex;
+color: white
+
+}
+
+
+.arriba li a{
+ display: flex;
+ 
+}
+
+.inicio
+{
+    margin-top: 1%; 
+    padding-left: 1cm;
+    padding-right: 6cm;
+    
+}
+
+     .cursos
+
+{
+    margin-top: 2%; 
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+.docentes
+{
+    margin-top: 2%;  
+    padding-left: 1cm;
+    padding-right: 1cm;
+    
+}
+.nosotros
+{
+    margin-top: 2%; 
+    padding-left: 1cm;
+    padding-right: 1cm;
+     
+}
+
+.contactos
+{
+    margin-top: 2%; 
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
+.icono
+
+{
+margin-top: 1%;
+   margin-bottom: 7px;
+    padding-right: 4cm;
+   max-width: 30%;
+   max-height: 70%;
+}
+.translate:hover
+{
+    
+    transform: scale(1.1, 1.1);
+    text-decoration: none
+
+    
+}
+
+.contenedor
+{
+    background-image: url(./Imagenes/fachas.jpg);
+    opacity: unset;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    border: solid black 1px;
+    margin: 10px auto; 
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    
+}
+
+.text
+{
+    font-size: 50px;
+    text-align: center;
+    position: ;
+    padding-top: 10%;
+    font-family: 'Share', cursive;
+    color: white;
+    
+     }
+.text2
+{
+    font-size: 30px;
+    text-align: center;
+    position: ;
+    font-family: 'Share', cursive;
+    color: white;
+   
+       
+}
+.text3
+{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 23%;
+    font-family: 'Share', cursive;
+    color: white;
+}
+
+.curs
+{
+    background-repeat: no-repeat;
+    background-image: url(./Imagenes/cursos.png);
+    width: 100%;
+    height: 80vh;
+}
+.aprender
+{
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    margin: 10px auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+}
+.administracion
+{
+    
+    background-image: url(./Imagenes/administracion\ de\ ventas.png);
+    width: 100%;
+    background-repeat: no-repeat;
+   
+    margin-left: 10%;
+}
+.marketing
+{
+    background-image: url(./Imagenes/marketing.png);
+    width: 100%;
+    background-repeat: no-repeat;
+   
+    margin-left: 1%;
+}
+.discapacidad
+{
+    background-image: url(./Imagenes/discapacidadvisual.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    
+    margin-left: 1%;
+}
+   
+.ambiente
+
+{
+    background-image: url(./Imagenes/analisis\ ambiental.PNG);
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    padding-bottom: 40%;
+    
+
+    
+}
+.desarrolloweb
+{
+    background-image: url(./Imagenes/desarrolladorweb.PNG);
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 1%;
+    padding-bottom: 40%;
+    text-align: ;
+  
+}
+.proyectos
+{
+    background-image: url(./Imagenes/proyectos.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 1%;
+    padding-bottom: 40%;
+}
+.docs
+{
+    background-repeat: no-repeat;
+    background-image: url(./Imagenes/Docentes.PNG);
+    width: 100%;
+    height: 80vh;
+}
+.nos
+{
+    background-repeat: no-repeat;
+    background-image: url(./Imagenes/nosotros.PNG);
+    width: 100%;
+    height: 80vh;
+
+}
+.cont
+{
+    background-repeat: no-repeat;
+    background-image: url(./Imagenes/Contactos.png);
+    width: 100%;
+    height: 80vh;
+}
+.scale:hover
+{
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+}
+
+
+.carousel-item{
+    height: 90vh;
+}
+.carousel-item img{
+   object-fit: fill;
+    
+}
+.barra
+{
+    background-color: blueviolet;
+    height: 10px;
+}
+
+.carousel-caption
+{
+    
+    bottom: 40%!important;
+
+}
+.carousel-caption h2 {
+    font-size: 3rem;
+}
+.carousel-caption h3{
+    font-size: 2rem;
+}
+.carousel-caption p{
+    font-size: 1rem;
+}
+.btn-primary
+{
+    color: blueviolet;
+}
+.ferru
+{
+    color: blueviolet;
+}
+
+.final
+{
+    margin-top: 20%;
+    display: flex;
+    font-family: 'Koulen', cursive;
+    background-color:black;
+    color: white;
+ flex-direction: row;
+  text-decoration: none;
+padding-top: 2%;
+border-top: 8px solid rgb(140, 45, 236);
+}
+.ico
+{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 40%;
+}
+ 
+formulario-titulo {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+  }
+  .formulario-titulo h2 {
+    font-size: 25px;
+    margin-top: 60px;
+  }
+  
+  .contenedor-formulario {
+    position: relative;
+    height: 700px;
+    display: flex;
+  }
+  
+  .formulario-letras {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+.profes
+
+{
+    font-family: 'Koulen', cursive;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    margin: 10px auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+   
+}
+.profes:hover
+{
+    transform: scale(1);
+    color: blue;
+}
+
+.info
+{
+    font-family: 'Koulen', cursive;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    margin: 10px auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.info
+{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+}
